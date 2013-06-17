@@ -812,6 +812,20 @@ h5, .h5 {
   opacity: 0;
 }
 /* line 1, ../scss/_base.scss */
+#content #close-button {
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  top: 124px;
+  left: 86%;
+  background-image: url(../images/close-button.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  display: none;
+  cursor: pointer;
+  z-index: 5000;
+}
+/* line 1, ../scss/_base.scss */
 #content #business-card {
   width: 525px;
   height: 315px;
@@ -868,18 +882,21 @@ h5, .h5 {
   position: absolute;
   top: 279px;
   left: 24px;
+  font-weight: bold;
 }
 /* line 1, ../scss/_base.scss */
 #content .address-1 {
   position: absolute;
   top: 54px;
   left: 24px;
+  font-weight: bold;
 }
 /* line 1, ../scss/_base.scss */
 #content .address-2 {
   position: absolute;
   top: 72px;
   left: 24px;
+  font-weight: bold;
 }
 /* line 1, ../scss/_base.scss */
 #content #about-links {
